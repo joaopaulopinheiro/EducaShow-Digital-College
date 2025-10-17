@@ -28,6 +28,9 @@ header {
     display: flex;
     list-style: none;
     align-items: center;
+    margin-right: 40px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 
@@ -38,7 +41,6 @@ header {
     transition: 2ms ease-in;
     position: relative;
     font-weight: bold;
-    font-size: 12px;
 }
 
 .menu .lista a:hover {
@@ -70,69 +72,140 @@ header {
     align-items: center;
     color: white;
     background-color: #253551;
+    height: 950px;
 }
 
 div.apresentacao {
     overflow-wrap: break-word;
-    margin-left: 30px;
+    margin-left: 5%;
     margin-top: 30px;
-    width: 260px;
 }
 
 .home-imagem img {
-    width: 400px;
-    height: 500px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 599px;
+    height: 831px;
+    margin-right: 40px;
 }
 
 .titulo {
     font-family: "Manrope", sans-serif;
-    font-size: 40px;
-    line-height: 49px;
+    font-size: 63px;
+    line-height: 67px;
     font-weight: 500;
+    margin-bottom: 10px;
+    width: 548px;
 }
 
 .subtitulo {
     font-family: "Nunito Sans", sans-serif;
-    font-size: 10px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 24px;
     font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    width: 395px;
 }
 
-a.saibamais-card {
+a.saibamais-main {
     font-family: "Nunito Sans", sans-serif;
     background-color: white;
-    padding: 10px 50px 10px 50px;
+    padding: 15px 50px 15px 50px;
     border-radius: 20px;
-    font-size: 12px;
+    text-transform: uppercase;
+    font-size: 16px;
     text-decoration: none;
     color: #253551;
 }
 
-.servicos {
-    margin-top: 80px;
+a.saibamais-main:hover {
+    background-color: rgba(224, 224, 219, 0.918);
 }
 
-.titulo-servicos {
-    margin-left: 30px;
+.planos-container {
+    background-color: rgb(224 224 219);
+    height: 950px;
+}
+
+.titulo-planos h1 {
+    padding-top: 80px;
+    margin-left: 5%;
     font-family: "Manrope", sans-serif;
-    font-size: 40px;
+    font-size: 63px;
+    line-height: 67px;
+    font-weight: 500;
 }
 
-.card-titulo {
-
+div.imagens-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3%;
+    margin-right: 40px;
+    margin-top: 3%;
 }
 
-.card-descricao {
-    
+.imagens-cards img {
+    width: 345px;
+    height: 250px;
 }
+
+.cards-planos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3%;
+    margin-right: 40px;
+    margin-top: 3%;
+    /* height: 600px; */
+}
+
+.cards-titulo {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 24px;
+}
+
+.cards-preco {
+    margin-top: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 35px;
+    line-height: 31px;
+    margin-bottom: 20px;
+}
+
+.cards-preco span {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    color: gray;
+}
+
+.cards-descricao {
+    width: 345px;
+    overflow-wrap: break-word;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+}
+
+.saibamais-card {
+    margin-top: 50px;
+}
+
+.saibamais-card a{
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #253551;
+    padding: 15px 50px 15px 50px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.cards-beneficios {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+
 
 /*
-
 footer {
     background-color: black;
     color: white;
