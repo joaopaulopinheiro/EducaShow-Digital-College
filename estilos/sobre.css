@@ -69,8 +69,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    background-color: #253551;
+    color: black;
+    background-color: #e0e0db;
     height: 950px;
 }
 
@@ -104,140 +104,14 @@ div.apresentacao {
     width: 395px;
 }
 
-a.saibamais-main {
-    font-family: "Nunito Sans", sans-serif;
-    background-color: white;
-    padding: 15px 50px 15px 50px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-size: 16px;
-    text-decoration: none;
-    color: #253551;
-}
-
-a.saibamais-main:hover {
-    background-color: rgba(224, 224, 219, 0.918);
-}
-
-.subscription-container {
-    background-color: rgb(224 224 219);
-    height: 950px;
-}
-
-.titulo-planos h1 {
-    padding-top: 80px;
-    padding-left: 5%;
-    font-family: "Manrope", sans-serif;
-    font-size: 63px;
-    line-height: 67px;
-    font-weight: 500;
-}
-
-div.imagens-cards {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 3%;
-    margin-right: 40px;
-    margin-top: 3%;
-}
-
-.imagens-cards img {
-    width: 345px;
-    height: 250px;
-}
-
-.cards-planos {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 3%;
-    margin-right: 40px;
-    margin-top: 3%;
-}
-
-.cards-titulo {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 24px;
-}
-
-.cards-preco {
-    margin-top: 15px;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 35px;
-    line-height: 31px;
-    margin-bottom: 22px;
-}
-
-.cards-preco span {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 17px;
-    color: gray;
-}
-
-.cards-descricao {
-    width: 345px;
-    overflow-wrap: break-word;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 16px;
-    margin-bottom: 50px;
-}
-
-.saibamais-card a {
-    font-family: "Nunito Sans", sans-serif;
-    background-color: #253551;
-    padding: 15px 30px 15px 30px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
-}
-
-.cards-beneficios {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 16px;
-    margin-top: 22px;
-}
-
-.about-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #253551;
-    height: 550px;
-    color: white;
-}
-
-.about-info h1 {
-    font-family: "Manrope", sans-serif;
-    font-size: 63px;
-    line-height: 67px;
-    width: 395px;
-    font-weight: 500;
-}
-
-.about-text {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 22px;
-    line-height: 33px;
-    width: 599px;
-}
-
-.about-text a {
-    color: white;
-}
-
-.about-text a:hover {
-    color: rgba(224, 224, 219, 0.918);
-}
-
 .contact-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 10%;
-    background-color: #e0e0db;
-    height: 550px;
+    background-color: #253551;
+    height: 650px;
+    color: white;
 }
 
 .contact-text h1 {
@@ -298,7 +172,7 @@ fieldset {
 input, textarea {
     padding: 15px;
     border-radius: 23px;
-    background-color: #e0e0db;
+    background-color: #253551;
     border-color: black;
     border-width: 1px;
     width: 294px;
@@ -310,13 +184,13 @@ input, textarea {
 
 .enviar-form {
     font-family: "Nunito Sans", sans-serif;
-    background-color: #253551;
+    background-color: #e0e0db;
     padding: 15px 30px 15px 30px;
     border-radius: 20px;
     text-transform: uppercase;
     font-size: 16px;
     text-decoration: none;
-    color: white;
+    color: #253551;
     cursor: pointer;
     border: none;
     margin-top: 15px;

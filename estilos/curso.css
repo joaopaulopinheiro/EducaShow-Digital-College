@@ -67,11 +67,11 @@ header {
 .main-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    color: white;
-    background-color: #253551;
-    height: 950px;
+    color: black;
+    background-color: #e0e0db;
+    height: 450px;
 }
 
 div.apresentacao {
@@ -80,19 +80,13 @@ div.apresentacao {
     margin-top: 30px;
 }
 
-.home-imagem img {
-    width: 599px;
-    height: 831px;
-    margin-right: 40px;
-}
-
 .titulo {
     font-family: "Manrope", sans-serif;
     font-size: 63px;
     line-height: 67px;
     font-weight: 500;
     margin-bottom: 10px;
-    width: 548px;
+    text-align: center;
 }
 
 .subtitulo {
@@ -101,36 +95,13 @@ div.apresentacao {
     line-height: 24px;
     font-weight: 400;
     margin-bottom: 70px;
-    width: 395px;
-}
-
-a.saibamais-main {
-    font-family: "Nunito Sans", sans-serif;
-    background-color: white;
-    padding: 15px 50px 15px 50px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-size: 16px;
-    text-decoration: none;
-    color: #253551;
-}
-
-a.saibamais-main:hover {
-    background-color: rgba(224, 224, 219, 0.918);
+    width: 800px;
+    text-align: center;
 }
 
 .subscription-container {
-    background-color: rgb(224 224 219);
-    height: 950px;
-}
-
-.titulo-planos h1 {
-    padding-top: 80px;
-    padding-left: 5%;
-    font-family: "Manrope", sans-serif;
-    font-size: 63px;
-    line-height: 67px;
-    font-weight: 500;
+    height: 750px;
+    padding-top: 5%;
 }
 
 div.imagens-cards {
@@ -204,7 +175,7 @@ div.imagens-cards {
     justify-content: space-around;
     align-items: center;
     background-color: #253551;
-    height: 550px;
+    height: 750px;
     color: white;
 }
 
@@ -231,97 +202,6 @@ div.imagens-cards {
     color: rgba(224, 224, 219, 0.918);
 }
 
-.contact-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 10%;
-    background-color: #e0e0db;
-    height: 550px;
-}
-
-.contact-text h1 {
-    font-family: "Manrope", sans-serif;
-    font-size: 63px;
-    line-height: 67px;
-    width: 395px;
-    margin-bottom: 32px;
-    font-weight: 500;
-}
-
-.contact-text p {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    width: 395px;
-}
-
-.formulario {
-    width: 599px;
-}
-
-form p {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 16px;
-}
-
-form span {
-    font-size: 14px;
-    color: gray;
-    font-family: "Nunito Sans", sans-serif;
-}
-
-label {
-    display: block;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 16px;
-}
-
-fieldset {
-    border: none;
-}
-
-.flex-form {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-
-.email-field {
-    margin-top: 15px;
-}
-
-.textarea-field {
-    margin-top: 15px;
-}
-
-input, textarea {
-    padding: 15px;
-    border-radius: 23px;
-    background-color: #e0e0db;
-    border-color: black;
-    border-width: 1px;
-    width: 294px;
-}
-
-.email-field input, textarea {
-    width: 599px;
-}
-
-.enviar-form {
-    font-family: "Nunito Sans", sans-serif;
-    background-color: #253551;
-    padding: 15px 30px 15px 30px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    border: none;
-    margin-top: 15px;
-}
-
 footer {
     background-color: #e0e0db;
     height: 300px;
@@ -331,6 +211,10 @@ footer {
 
 footer p {
     font-weight: bold;
+}
+
+form label {
+    font-size: 16px;
 }
 
 .footer-explore li, .footer-social li{

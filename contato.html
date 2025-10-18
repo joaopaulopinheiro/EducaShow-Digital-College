@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educashow</title>
+    <link rel="shortcut icon" href="imagens/logo_educashow.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/contato.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="menu">
+            <a href="index.html"><img class="logo" src="imagens/logo_educashow.png" width="80px" alt="Logo Educashow"></a>
+            <nav class="header-menu">
+                <ul class="lista">
+                    <li><a href="sobre.html">Quem somos</a></li>
+                    <li><a href="planos.html">Planos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="curso.html">Curso</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção principal -->
+        <section class="main-content">
+            <div class="apresentacao">
+                <h1 class="titulo">Fale conosco</h1><br>
+                <h2 class="subtitulo">Entre em contato conosco para tirar dúvidas, solicitar informações sobre nossos cursos e planos, propor parcerias ou compartilhar sugestões. Nossa equipe está sempre pronta para ajudar você a encontrar a melhor opção de aprendizado.
+                <br><br>
+                Após o envio da sua mensagem, nossa equipe analisará sua solicitação e retornará o contato o mais breve possível, oferecendo suporte personalizado e todas as orientações necessárias.</h2>
+
+                <div class="formulario">
+                <form>
+                    <fieldset class="name-field">
+                        <p>Nome <span>(obrigatório)</span></p>
+                        <div class="flex-form">
+                            <div>
+                                <label style="font-size: 14px;" for="name">Nome:</label>
+                                <input type="text" id="name" name="nome">
+                            </div>
+                            <div>
+                                <label style="font-size: 14px;" for="lastname">Sobrenome:</label>
+                                <input type="text" id="lastname" name="sobrenome">
+                            </div>
+                        </div>
+                    </fieldset>
+                    
+                    <div class="email-field">
+                        <label for="email">E-mail: <span>(obrigatório)</span></label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="textarea-field">
+                        <label for="message">Mensagem: <span>(obrigatório)</span></label>
+                        <textarea rows="5" name="mensagem" id="message"></textarea>
+                    </div>
+
+                    <button class="enviar-form" type="submit">Enviar</button>
+
+                </form>
+            </div>
+            </div>
+
+
+            <div class="home-imagem">
+                <img src="imagens/contato-educashow.png" alt="Home Educashow">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-form">
+                <h5>Educashow</h5>
+            </div>
+
+            <div class="footer-explore">
+                <p>Explorar</p>
+                <ul class="explorar-lista">
+                    <li><a href="sobre.html">Quem somos</a></li>
+                    <li><a href="planos.html">Planos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="curso.html">Curso</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <p>Siga-nos</p>
+                <ul class="social">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-form">
+                <form>
+                    <label for="email-footer">Cadastre seu endereço de e-mail para receber novidades e atualizações.</label>
+                    <input type="email" name="email-footer" id="email-footer" placeholder="Endereço de email">
+                    <button class="enviar-form-footer" type="submit">Cadastre-se</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
